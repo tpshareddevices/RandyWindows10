@@ -1,0 +1,9 @@
+﻿2016-08-19 12:40:04.881 -0700	START		Running Index.script
+2016-08-19 12:40:04.941 -0700	Log		08/19/16 12:40 PM	1	on_index	Index.script
+2016-08-19 12:40:04.960 -0700	presshomebutton			12	on_configure	DeviceLib.script
+2016-08-19 12:40:04.961 -0700	Log		This is iPad Mini Device sitting in the Device Lab	13	on_configure	DeviceLib.script
+2016-08-19 12:40:04.965 -0700	Log		iPad2,5 will be used 	17	on_configure	DeviceLib.script
+2016-08-19 12:40:10.891 -0700	click	Chrome/Desktop Icon	at (383, 958)	3	on_launch	Chrome.script
+2016-08-19 12:40:10.895 -0700	Exception		Image Property List did not contain "ImageName" property	4	on_launch	Chrome.script
+2016-08-19 12:40:11.596 -0700	EndTestCase		(Duration:"6.713316", Errors:"1", Exceptions:"1", StartTime:"2016-08-19 12:40:04 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-19 12:40:16.908 -0700	FAILURE	Screen_Error.png	Image Not Found imagefound Error - Image Property List did not contain "ImageName" property -- Execution Time 0:00:06 Index.script

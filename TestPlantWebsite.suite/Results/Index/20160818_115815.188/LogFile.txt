@@ -1,0 +1,21 @@
+﻿2016-08-18 11:58:15.189 -0600	START		Running Index.script
+2016-08-18 11:58:19.174 -0600	click	Chrome/Desktop Icon	at (383, 958)	3	on_launch	Chrome.script
+2016-08-18 11:58:24.351 -0600	waitfor	Chrome/Refresh Icon	found at (211, 85)	4	on_launch	Chrome.script
+2016-08-18 11:58:24.373 -0600	Log		It took 5.16851 seconds to open.	5	on_launch	Chrome.script
+2016-08-18 11:58:29.635 -0600	click	Chrome/Refresh Icon	at (211, 85)	2	on_addressbar	Chrome.script
+2016-08-18 11:58:30.578 -0600	typetext		www.testplant.com[returnKey]	3	on_addressbar	Chrome.script
+2016-08-18 11:58:35.723 -0600	waitfor	Chrome/Refresh Icon	found at (211, 85)	4	on_addressbar	Chrome.script
+2016-08-18 11:58:35.734 -0600	Log		It took 5.141038 seconds to load webpage.	5	on_addressbar	Chrome.script
+2016-08-18 11:58:47.475 -0600	imagefound	Website/TestPlant Logo	found at (104, 201)	4	on_confirmloaded	Website.script
+2016-08-18 11:58:47.515 -0600	Log		Element was Found	16	on_confirmloaded	Website.script
+2016-08-18 11:58:47.569 -0600	Log		Looking for Your Industry	2	on_navigateto	Website.script
+2016-08-18 11:58:54.065 -0600	click	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(288,134), ImageRectangle:(252,130,324,138), Language:"English", text:"Your Industry", TextPlatform:"Generic OCR")	at (288, 134)	3	on_navigateto	Website.script
+2016-08-18 11:58:54.100 -0600	Log		Automotive	16	on_index	Index.script
+2016-08-18 11:58:54.131 -0600	Log		Looking for Automotive	2	on_navigateto	Website.script
+2016-08-18 11:59:04.738 -0600	click	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(233,948), ImageRectangle:(211,945,255,951), Language:"English", text:"Automotive", TextPlatform:"Generic OCR")	at (233, 948)	3	on_navigateto	Website.script
+2016-08-18 12:00:04.847 -0600	imagefound	Website/Banner	Unable to Find Image Website/Banner	4	on_confirmloaded	Website.script
+2016-08-18 12:00:04.891 -0600	LogError		Unable to Confirm Element	18	on_confirmloaded	Website.script
+2016-08-18 12:00:10.222 -0600	click	Chrome/Close Tab Icon	at (236, 42)	2	on_reset	Chrome.script
+2016-08-18 12:00:16.251 -0600	click	Chrome/Open Tab Icon/iPad Mini	at (26, 49)	3	on_reset	Chrome.script
+2016-08-18 12:00:16.735 -0600	EndTestCase		(Duration:"121.544646", Errors:"1", Exceptions:"0", StartTime:"2016-08-18 11:58:15 -0600", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-18 12:00:21.949 -0600	FAILURE	Screen_Error.png	Script Error Number of Errors logged: 1 -- Execution Time 0:02:01 Index.script

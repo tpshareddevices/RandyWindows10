@@ -1,0 +1,4 @@
+﻿2016-08-18 14:10:54.272 -0600	START		Running Index.script
+2016-08-18 14:10:58.887 -0600	Exception	Chrome/Desktop Icon	No Image Found On Screen: "Chrome/Desktop Icon"	3	on_launch	Chrome.script
+2016-08-18 14:10:59.599 -0600	EndTestCase		(Duration:"5.325981", Errors:"1", Exceptions:"1", StartTime:"2016-08-18 14:10:54 -0600", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-18 14:10:59.720 -0600	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "Chrome/Desktop Icon" -- Execution Time 0:00:05 Index.script

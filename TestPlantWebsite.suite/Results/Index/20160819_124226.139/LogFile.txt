@@ -1,0 +1,11 @@
+﻿2016-08-19 12:42:26.141 -0700	START		Running Index.script
+2016-08-19 12:42:26.190 -0700	Log		08/19/16 12:42 PM	1	on_index	Index.script
+2016-08-19 12:42:26.220 -0700	presshomebutton			12	on_configure	DeviceLib.script
+2016-08-19 12:42:26.221 -0700	Log		This is iPad Mini Device sitting in the Device Lab	13	on_configure	DeviceLib.script
+2016-08-19 12:42:26.225 -0700	Log		iPad2,5 will be used 	17	on_configure	DeviceLib.script
+2016-08-19 12:42:38.012 -0700	click	Chrome/Desktop Icon	at (383, 958)	3	on_launch	Chrome.script
+2016-08-19 12:43:04.251 -0700	imagefound	Chrome/Microphone Icon	Unable to Find Image Chrome/Microphone Icon within 10.00 seconds	4	on_launch	Chrome.script
+2016-08-19 12:43:04.406 -0700	swipedown		Swiped down from (384, 307) to (384, 717)	2	on_reset	Chrome.script
+2016-08-19 12:43:28.645 -0700	imagefound	Chrome/Tab Menu Icon	Unable to Find Image Chrome/Tab Menu Icon	4	on_reset	Chrome.script
+2016-08-19 12:43:44.903 -0700	EndTestCase		(Duration:"78.76052", Errors:"1", Exceptions:"0", StartTime:"2016-08-19 12:42:26 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-19 12:43:44.904 -0700	ABORTED		Execution Time 0:01:18 Index.script

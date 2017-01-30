@@ -1,0 +1,44 @@
+﻿Date Run,Status,Time,# of Errors,# of Warnings,# of Exceptions,Log File,Return Value,Error Message,# of Successes
+2016-08-18 11:58:15.188 -0600,"Failure",0:02:01,1,0,0,"20160818_115815.188/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2016-08-18 12:10:56.577 -0600,"Failure",0:01:41,1,0,0,"20160818_121056.577/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2016-08-18 12:18:52.330 -0600,"Success",0:01:28,0,0,0,"20160818_121852.330/LogFile.txt","","",1
+2016-08-18 13:38:22.647 -0600,"Failure",0:00:04,1,0,1,"20160818_133822.647/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""Chrome/Desktop Icon""",0
+2016-08-18 14:10:54.269 -0600,"Failure",0:00:05,1,0,1,"20160818_141054.269/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""Chrome/Desktop Icon""",0
+2016-08-18 14:11:54.320 -0600,"Running",0:00:00,0,0,0,"20160818_141154.320/LogFile.txt","","",0
+2016-08-18 14:14:39.879 -0600,"Failure",0:00:11,1,0,1,"20160818_141439.879/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""Chrome/Refresh Icon""",0
+2016-08-18 14:15:36.620 -0600,"Running",0:00:00,0,0,0,"20160818_141536.620/LogFile.txt","","",0
+2016-08-18 14:16:52.620 -0600,"Running",0:00:00,0,0,0,"20160818_141652.620/LogFile.txt","","",0
+2016-08-18 14:31:24.170 -0600,"Running",0:00:00,0,0,0,"20160818_143124.170/LogFile.txt","","",0
+2016-08-18 14:31:51.937 -0600,"Failure",0:00:41,1,0,1,"20160818_143151.937/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""Chrome/Tab Menu Icon""",0
+2016-08-18 14:33:40.882 -0600,"Failure",0:01:15,2,2,0,"20160818_143340.882/LogFile.txt","","Script Error -- Number of Errors logged: 2",0
+2016-08-18 15:03:08.298 -0600,"Failure",0:00:00,1,0,1,"20160818_150308.298/LogFile.txt","","File Not Found -- imagefound Error - Could Not Open Image: Apple/Sleep Screen",0
+2016-08-18 15:04:00.249 -0600,"Failure",0:01:12,1,1,0,"20160818_150400.249/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2016-08-19 09:01:59.715 -0700,"Failure",0:00:00,1,0,1,"20160819_090159.715/LogFile.txt","","File Not Found -- imagefound Error - Could Not Open Image: Apple",0
+2016-08-19 09:03:51.188 -0700,"Running",0:00:00,0,0,0,"20160819_090351.188/LogFile.txt","","",0
+2016-08-19 09:19:51.426 -0700,"Success",0:00:53,0,0,0,"20160819_091951.426/LogFile.txt","","",1
+2016-08-19 09:22:28.067 -0700,"Success",0:00:42,0,0,0,"20160819_092228.067/LogFile.txt","","",1
+2016-08-19 09:24:10.073 -0700,"Running",0:00:00,0,0,0,"20160819_092410.073/LogFile.txt","","",0
+2016-08-19 09:24:44.933 -0700,"Running",0:00:00,0,0,0,"20160819_092444.933/LogFile.txt","","",0
+2016-08-19 09:30:42.149 -0700,"Running",0:00:00,0,0,0,"20160819_093042.149/LogFile.txt","","",0
+2016-08-19 09:33:37.127 -0700,"Failure",0:02:13,1,1,0,"20160819_093337.127/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2016-08-19 09:38:07.974 -0700,"Failure",0:02:33,1,0,1,"20160819_093807.974/LogFile.txt","","File Not Found -- click Error - Could Not Open Image: BottomClick",0
+2016-08-19 09:57:21.204 -0700,"Failure",0:00:00,1,0,1,"20160819_095721.204/LogFile.txt","","No Remote Connection -- sutinfo Error - Remote Connection Unavailable",0
+2016-08-19 09:57:27.598 -0700,"Running",0:00:00,0,0,0,"20160819_095727.598/LogFile.txt","","",0
+2016-08-19 10:14:54.322 -0700,"Failure",0:01:26,1,0,1,"20160819_101454.322/LogFile.txt","","Error Running Script Command -- imagefound Error - Too Few Parameters, please use imagefound([TIME], image1[, ...])",0
+2016-08-19 12:21:09.385 -0700,"Running",0:00:00,0,0,0,"20160819_122109.385/LogFile.txt","","",0
+2016-08-19 12:21:47.812 -0700,"Failure",0:02:05,1,1,0,"20160819_122147.812/LogFile.txt","","Script Error -- Number of Errors logged: 1",0
+2016-08-19 12:35:33.070 -0700,"Running",0:00:00,0,0,0,"20160819_123533.070/LogFile.txt","","",0
+2016-08-19 12:39:07.210 -0700,"Running",0:00:00,0,0,0,"20160819_123907.210/LogFile.txt","","",0
+2016-08-19 12:40:04.880 -0700,"Failure",0:00:06,1,0,1,"20160819_124004.880/LogFile.txt","","Image Not Found -- imagefound Error - Image Property List did not contain ""ImageName"" property",0
+2016-08-19 12:40:53.076 -0700,"Failure",0:00:27,1,0,1,"20160819_124053.076/LogFile.txt","","File Not Found -- click Error - Could Not Open Image: 10",0
+2016-08-19 12:42:26.139 -0700,"Running",0:00:00,0,0,0,"20160819_124226.139/LogFile.txt","","",0
+2016-08-22 08:08:19.288 -0700,"Running",0:00:00,0,0,0,"20160822_080819.288/LogFile.txt","","",0
+2016-08-22 08:10:20.966 -0700,"Running",0:00:00,0,0,0,"20160822_081020.966/LogFile.txt","","",0
+2016-08-22 09:41:53.032 -0700,"Failure",0:01:00,1,0,1,"20160822_094153.032/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""Chrome/Microphone Icon""",0
+2016-08-23 08:38:27.840 -0700,"Running",0:00:00,0,0,0,"20160823_083827.840/LogFile.txt","","",0
+2016-08-23 08:39:57.957 -0700,"Failure",0:00:01,1,0,1,"20160823_083957.957/LogFile.txt","","File Not Found -- imagefound Error - Could Not Open Image: Chrome/Microphone Icon",0
+2016-08-23 08:43:52.366 -0700,"Failure",0:00:02,1,0,1,"20160823_084352.366/LogFile.txt","","File Not Found -- imagefound Error - Could Not Open Image: Chrome/Microphone Icon",0
+2016-08-23 08:45:36.795 -0700,"Failure",0:00:43,1,0,1,"20160823_084536.795/LogFile.txt","","Image Not Found -- click Error - No Image Found On Screen: ""Chrome/Desktop Icon""",0
+2016-08-23 08:46:48.482 -0700,"Running",0:00:00,0,0,0,"20160823_084648.482/LogFile.txt","","",0
+2016-08-23 08:47:47.457 -0700,"Running",0:00:00,0,0,0,"20160823_084747.457/LogFile.txt","","",0
+2016-08-23 08:53:27.479 -0700,"Failure",0:00:23,1,0,1,"20160823_085327.479/LogFile.txt","","File Not Found -- imagefound Error - Could Not Open Image: Website/Banner Robot",0

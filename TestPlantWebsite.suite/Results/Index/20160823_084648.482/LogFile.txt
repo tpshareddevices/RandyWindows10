@@ -1,0 +1,14 @@
+﻿2016-08-23 08:46:48.483 -0700	START		Running Index.script
+2016-08-23 08:46:48.535 -0700	Log		08/23/16 08:46 AM	1	on_index	Index.script
+2016-08-23 08:46:48.580 -0700	Log		The Device SM-T280 has been picked	16	on_configure	DeviceLib.script
+2016-08-23 08:46:48.582 -0700	Log		SM-T280 will be used 	18	on_configure	DeviceLib.script
+2016-08-23 08:46:50.486 -0700	click	Chrome/Desktop Icon	at (465, 943)	3	on_launch	Chrome.script
+2016-08-23 08:46:53.513 -0700	imagefound	Chrome/Microphone Icon	found at (714, 124)	4	on_launch	Chrome.script
+2016-08-23 08:46:53.517 -0700	Log		It took  to open.	5	on_launch	Chrome.script
+2016-08-23 08:46:55.257 -0700	click	Chrome/Microphone Icon	at (714, 124)	2	on_addressbar	Chrome.script
+2016-08-23 08:46:56.190 -0700	typetext		www.testplant.com[returnKey]	3	on_addressbar	Chrome.script
+2016-08-23 08:47:11.652 -0700	imagefound	Website/TestPlant Logo	Unable to Find Image Website/TestPlant Logo	4	on_confirmloaded	Website.script
+2016-08-23 08:47:11.654 -0700	LogError		Unable to Confirm Element: Website/TestPlant Logo	18	on_confirmloaded	Website.script
+2016-08-23 08:47:13.265 -0700	capturescreen	().png		19	on_confirmloaded	Website.script
+2016-08-23 08:47:15.181 -0700	EndTestCase		(Duration:"26.695013", Errors:"2", Exceptions:"0", StartTime:"2016-08-23 08:46:48 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-23 08:47:15.182 -0700	ABORTED		Execution Time 0:00:26 Index.script

@@ -1,0 +1,80 @@
+﻿
+
+on ConfirmLoaded type, Element
+	if type = "image" then
+		
+		if imagefound (Image: Element, waitfor: 15) Then
+			put "yes" into found
+		end if
+	else if type = "text"
+		if imagefound (Text: Element, waitfor:15) Then
+			put "yes" into found
+		end if
+	else
+		LogError "ConfirmLoaded" 
+	end if
+	
+	if found = "yes" then
+		Log "Element was Found: " & Element --&":"&FoundImageInfo()
+	else
+		LogError "Unable to Confirm Element: " & Element
+		CaptureScreen ()
+	end if
+end ConfirmLoaded
+
+
+on NavigateToIndustry
+	if imagefound(image: "Website/TopNavigation",Scale:(1.5,1.0,0.8),waitfor: 10) Then
+		Log "Top Navigation Arrow was clicked"
+		click FoundImageLocation()
+	end if
+	--Click (Text:"Your Industry",waitfor:10)
+	Click (Text:"Your",waitfor:10)
+end NavigateToIndustry
+
+
+on NavigateToEnterprise page
+	put "true" into Element
+	
+	repeat 2 times
+		Repeat until imagefound(image: "Website/BottomNavigation",Scale:(1.5,1.0,0.8))
+			if repeatindex() = 2 then
+				logerror "Unable to Find Bottom Navigation"
+				exit repeat			
+			else
+				SwipeUp 
+				wait 2			
+			end if
+		End repeat
+		
+		if Element <> "false" then
+			click (image:"Website/BottomNavigation",Scale:(1.5,1.0,0.8))
+			Log "Bottom Navigation Arrow was clicked"
+		end if		
+		
+		if OCRS <> "Found" then
+			log "Using OCR we are looking for: " & Page
+			repeat until imagefound(text: Page)
+				if repeatindex() = 4 then
+					exit repeat	
+				else
+					SwipeUp 
+					wait 2	
+				end if
+			end repeat
+		end if
+		
+		if OCRS <> "Found" then
+			wait 1
+			click (text: Page)
+			log "Clicked on " & page
+			if imagefound ("Website/Banner Robot") then
+			else
+				SwipeDown
+				wait 3
+			end if
+			put "Found" into OCRS
+		end if		
+	end repeat
+	
+end NavigateToEnterprise

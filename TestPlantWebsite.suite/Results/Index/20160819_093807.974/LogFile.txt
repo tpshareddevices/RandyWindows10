@@ -1,0 +1,28 @@
+﻿2016-08-19 09:38:07.975 -0700	START		Running Index.script
+2016-08-19 09:38:08.039 -0700	Log		08/19/1609:38 AM	1	on_index	Index.script
+2016-08-19 09:38:08.085 -0700	Log		The Device iPhone4,1 has been picked	12	on_configure	DeviceLib.script
+2016-08-19 09:38:08.087 -0700	Log		iPhone4,1 will be used 	14	on_configure	DeviceLib.script
+2016-08-19 09:38:09.453 -0700	click	Chrome/Desktop Icon	at (546, 642)	3	on_launch	Chrome.script
+2016-08-19 09:38:30.802 -0700	imagefound	Chrome/Microphone Icon	found at (337, 521)	4	on_launch	Chrome.script
+2016-08-19 09:38:30.851 -0700	Log		It took  to open.	5	on_launch	Chrome.script
+2016-08-19 09:38:37.762 -0700	click	Chrome/Microphone Icon	at (337, 521)	2	on_addressbar	Chrome.script
+2016-08-19 09:38:38.701 -0700	typetext		www.testplant.com[returnKey]	3	on_addressbar	Chrome.script
+2016-08-19 09:38:55.065 -0700	imagefound	Website/TestPlant Logo	found at (314, 213)	4	on_confirmloaded	Website.script
+2016-08-19 09:38:55.110 -0700	Log		Element was Found: Website/TestPlant Logo	16	on_confirmloaded	Website.script
+2016-08-19 09:38:56.878 -0700	imagefound	Website/TopNavigation	found at (508, 206)	2	on_navigatetoindustry	Website.script
+2016-08-19 09:38:56.881 -0700	Log		Top Navigation Arrow was clicked	3	on_navigatetoindustry	Website.script
+2016-08-19 09:38:56.974 -0700	click		at (508, 206)	4	on_navigatetoindustry	Website.script
+2016-08-19 09:39:01.784 -0700	click	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(470,355), ImageRectangle:(374,345,566,366), Language:"English", Text:"Your Industry", TextPlatform:"Generic OCR")	at (470, 355)	6	on_navigatetoindustry	Website.script
+2016-08-19 09:39:19.542 -0700	imagefound	Website/Banner Robot	found at (401, 733)	4	on_confirmloaded	Website.script
+2016-08-19 09:39:19.547 -0700	Log		Element was Found: Website/Banner Robot	16	on_confirmloaded	Website.script
+2016-08-19 09:39:19.556 -0700	Log		Media	16	on_index	Index.script
+2016-08-19 09:39:33.123 -0700	imagefound	Website/BottomNavigation	Unable to Find Image Website/BottomNavigation	2	on_navigatetoenterprise	Website.script
+2016-08-19 09:39:33.127 -0700	Log		Using OCR to find:Media	9	on_navigatetoenterprise	Website.script
+2016-08-19 09:40:04.576 -0700	imagefound	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:"", ImageRectangle:"", Language:"English", text:"Media", TextPlatform:"Generic OCR")	Unable to Find Image (TEXT:"Media")	10	on_navigatetoenterprise	Website.script
+2016-08-19 09:40:04.709 -0700	swipeup		Swiped up from (320, 672) to (320, 288)	14	on_navigatetoenterprise	Website.script
+2016-08-19 09:40:05.713 -0700	Log		Using OCR to find:Media	9	on_navigatetoenterprise	Website.script
+2016-08-19 09:40:39.365 -0700	imagefound	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:"", ImageRectangle:"", Language:"English", text:"Media", TextPlatform:"Generic OCR")	Unable to Find Image (TEXT:"Media")	10	on_navigatetoenterprise	Website.script
+2016-08-19 09:40:39.575 -0700	swipeup		Swiped up from (320, 672) to (320, 288)	14	on_navigatetoenterprise	Website.script
+2016-08-19 09:40:40.631 -0700	Exception	BottomClick	Could Not Open Image: BottomClick	18	on_navigatetoenterprise	Website.script
+2016-08-19 09:40:41.232 -0700	EndTestCase		(Duration:"153.25398", Errors:"1", Exceptions:"1", StartTime:"2016-08-19 09:38:07 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-19 09:40:43.274 -0700	FAILURE	Screen_Error.png	File Not Found click Error - Could Not Open Image: BottomClick -- Execution Time 0:02:33 Index.script

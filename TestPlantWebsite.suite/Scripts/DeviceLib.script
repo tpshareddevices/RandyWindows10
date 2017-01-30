@@ -1,0 +1,23 @@
+﻿
+
+on configure
+
+	put SutInfo().device into Device
+	if Device = "iPhone7,2" then	
+		Unlock.iPhone6s
+		Log "This is Randy's Phone sitting on his Desk"
+	else if Device =  "iPhone5,3" then
+		PressHomeButton
+		Setoption nextKeyDelay: .08 
+		log "This is Carrie's Device sitting in the Device Lab"
+	else if Device = "iPad2,5"
+		PressHomeButton
+		Setoption nextKeyDelay: .08 
+		log "This is iPad Mini Device sitting in the Device Lab"		
+	else
+		Log 	"The Device " & SutInfo().device & " has been picked"
+	end if
+	Log Device & " will be used "
+	
+	
+end configure

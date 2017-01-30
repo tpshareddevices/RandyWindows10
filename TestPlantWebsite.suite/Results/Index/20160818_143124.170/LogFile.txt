@@ -1,0 +1,11 @@
+﻿2016-08-18 14:31:24.171 -0600	START		Running Index.script
+2016-08-18 14:31:25.196 -0600	click	Chrome/Desktop Icon	at (286, 820)	3	on_launch	Chrome.script
+2016-08-18 14:31:26.729 -0600	waitfor	Chrome/Microphone Icon	found at (481, 521)	4	on_launch	Chrome.script
+2016-08-18 14:31:26.785 -0600	Log		It took 1.522857 seconds to open.	5	on_launch	Chrome.script
+2016-08-18 14:31:27.241 -0600	click	Chrome/Microphone Icon	at (481, 521)	2	on_addressbar	Chrome.script
+2016-08-18 14:31:28.175 -0600	typetext		www.testplant.com[returnKey]	3	on_addressbar	Chrome.script
+2016-08-18 14:31:49.511 -0600	imagefound	Website/TestPlant Logo	Unable to Find Image Website/TestPlant Logo	4	on_confirmloaded	Website.script
+2016-08-18 14:31:49.655 -0600	LogError		Unable to Confirm Element: Website/TestPlant Logo	18	on_confirmloaded	Website.script
+2016-08-18 14:31:49.997 -0600	LogWarning		Unable to save /Users/randyhesse/Documents/DeviceLabSuites/TestPlantWebsite.suite/Results/Index/20160818_143124.170/Website/TestPlant Logo.png	19	on_confirmloaded	Website.script
+2016-08-18 14:31:50.729 -0600	EndTestCase		(Duration:"26.556039", Errors:"2", Exceptions:"0", StartTime:"2016-08-18 14:31:24 -0600", Successes:"0", TestCase:"Index.script", Warnings:"1")
+2016-08-18 14:31:50.729 -0600	ABORTED		Execution Time 0:00:26 Index.script

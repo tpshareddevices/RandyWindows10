@@ -1,0 +1,8 @@
+﻿2016-08-19 09:01:59.716 -0700	START		Running Index.script
+2016-08-19 09:01:59.982 -0700	Log		08/19/16	1	on_index	Index.script
+2016-08-19 09:01:59.984 -0700	Log		09:01 AM	1	on_index	Index.script
+2016-08-19 09:02:00.006 -0700	presshomebutton			5	on_configure	DeviceLib.script
+2016-08-19 09:02:00.012 -0700	Log		Excute unlock Process	3	on_iphone6s	Unlock.script
+2016-08-19 09:02:00.045 -0700	Exception	Apple	Could Not Open Image: Apple	7	on_iphone6s	Unlock.script
+2016-08-19 09:02:00.425 -0700	EndTestCase		(Duration:"0.705363", Errors:"1", Exceptions:"1", StartTime:"2016-08-19 09:01:59 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-19 09:02:01.227 -0700	FAILURE	Screen_Error.png	File Not Found imagefound Error - Could Not Open Image: Apple -- Execution Time 0:00:00 Index.script

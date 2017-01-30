@@ -1,0 +1,8 @@
+﻿2016-08-18 14:16:52.622 -0600	START		Running Index.script
+2016-08-18 14:16:53.489 -0600	click	Chrome/Desktop Icon	at (286, 820)	3	on_launch	Chrome.script
+2016-08-18 14:16:56.777 -0600	waitfor	Chrome/Microphone Icon	found at (481, 521)	4	on_launch	Chrome.script
+2016-08-18 14:16:56.794 -0600	Log		It took 3.277784 seconds to open.	5	on_launch	Chrome.script
+2016-08-18 14:16:58.011 -0600	click	Chrome/Microphone Icon	at (481, 521)	2	on_addressbar	Chrome.script
+2016-08-18 14:16:58.945 -0600	typetext		www.testplant.com[returnKey]	3	on_addressbar	Chrome.script
+2016-08-18 14:17:13.830 -0600	EndTestCase		(Duration:"21.205912", Errors:"1", Exceptions:"0", StartTime:"2016-08-18 14:16:52 -0600", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-18 14:17:13.830 -0600	ABORTED		Execution Time 0:00:21 Index.script

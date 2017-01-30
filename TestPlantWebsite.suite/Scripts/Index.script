@@ -1,0 +1,28 @@
+﻿Log the date & " "& the time 
+
+
+DeviceLib.configure
+Chrome.launch
+Chrome.addressbar ("www.testplant.com")
+
+
+Website.ConfirmLoaded "Image","Website/TestPlant Logo"
+Website.NavigateToIndustry
+Website.ConfirmLoaded "Image","Website/Banner Robot"
+
+
+put ("Finance", "Automotive","Media") into IndustryList
+put item random(1,3) of  IndustryList into Page
+log Page
+Website.NavigateToEnterprise Page
+wait 2
+SwipeUp 
+
+
+Website.ConfirmLoaded "image", "Website/Banner Industry"
+Chrome.Reset
+
+Chrome.Close
+
+
+

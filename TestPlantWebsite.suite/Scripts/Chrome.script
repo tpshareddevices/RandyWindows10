@@ -1,0 +1,33 @@
+﻿on launch
+
+	click (image:"Chrome/Desktop Icon", scale: (1.0,1.6))
+	if ImageFound(10,image: "Chrome/Microphone Icon", scale: (1.0,0.55,1.6)) Then
+		log "It took " & the result & " to open."	
+	else
+		reset
+	end if	
+end launch
+
+
+
+on addressbar website
+	click (image:"Chrome/Microphone Icon", scale: (1.0,1.6,0.55), waitfor: 10)
+	TypeText website , returnKey	
+end  addressbar
+
+
+on reset
+	SwipeDown	
+	wait 1
+	if imagefound ("Chrome/Tab Menu Icon") then	
+		click "Chrome/Tab Menu Icon"
+		click "Chrome/Tab Close Icon"
+		click "Chrome/Tab Open Icon"		
+	end if	
+end reset
+
+on close
+	TypeText homeKey
+	wait 2
+	PressHomeButton
+end close

@@ -1,0 +1,5 @@
+﻿2016-08-18 15:03:08.299 -0600	START		Running Index.script
+2016-08-18 15:03:08.411 -0600	connect		iPhone 6s:(null)	4	on_choose	DevicePicker.script
+2016-08-18 15:03:08.440 -0600	Exception	Apple/Sleep Screen	Could Not Open Image: Apple/Sleep Screen	2	on_unlock	/Users/randyhesse/Documents/DeviceLabSuites/AppleDevices.suite/Scripts/Unlock.script
+2016-08-18 15:03:09.281 -0600	EndTestCase		(Duration:"0.980839", Errors:"1", Exceptions:"1", StartTime:"2016-08-18 15:03:08 -0600", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-18 15:03:10.342 -0600	FAILURE	Screen_Error.png	File Not Found imagefound Error - Could Not Open Image: Apple/Sleep Screen -- Execution Time 0:00:00 Index.script

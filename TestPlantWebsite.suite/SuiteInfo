@@ -1,0 +1,18 @@
+﻿{
+    EPVersionNumber = 1607250001;
+    Schedules =     (
+    );
+    ScriptMetaData =     {
+    };
+    helpedSuitesInfo =     (
+    );
+    helperSuitesInfo =     (
+                {
+            disabled = 1;
+            filePath = "/Users/eggbox/Desktop/DeviceLabSuites/AppleDevices.suite";
+        },
+                {
+            filePath = "/Users/eggbox/Desktop/DeviceLabSuites/AndroidDevices.suite";
+        }
+    );
+}

@@ -1,0 +1,11 @@
+﻿2016-08-19 12:35:33.071 -0700	START		Running Index.script
+2016-08-19 12:35:33.123 -0700	Log		08/19/16 12:35 PM	1	on_index	Index.script
+2016-08-19 12:35:33.168 -0700	Log		The Device iPad2,5 has been picked	12	on_configure	DeviceLib.script
+2016-08-19 12:35:33.171 -0700	Log		iPad2,5 will be used 	14	on_configure	DeviceLib.script
+2016-08-19 12:35:34.900 -0700	click	Chrome/Desktop Icon	at (383, 958)	3	on_launch	Chrome.script
+2016-08-19 12:35:45.756 -0700	imagefound	Chrome/Microphone Icon	Unable to Find Image Chrome/Microphone Icon within 10.00 seconds	4	on_launch	Chrome.script
+2016-08-19 12:35:45.901 -0700	swipedown		Swiped down from (384, 307) to (384, 717)	2	on_reset	Chrome.script
+2016-08-19 12:36:19.833 -0700	imagefound	Chrome/Tab Menu Icon	Unable to Find Image Chrome/Tab Menu Icon	4	on_reset	Chrome.script
+2016-08-19 12:37:41.265 -0700	Exception	Chrome/Microphone Icon	No Image Found On Screen: "Chrome/Microphone Icon"	2	on_addressbar	Chrome.script
+2016-08-19 12:37:41.974 -0700	EndTestCase		(Duration:"128.900771", Errors:"1", Exceptions:"1", StartTime:"2016-08-19 12:35:33 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-19 12:37:41.975 -0700	ABORTED		Execution Time 0:02:08 Index.script

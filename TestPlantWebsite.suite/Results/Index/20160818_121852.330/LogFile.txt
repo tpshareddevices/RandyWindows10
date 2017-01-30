@@ -1,0 +1,22 @@
+﻿2016-08-18 12:18:52.331 -0600	START		Running Index.script
+2016-08-18 12:19:14.639 -0600	click	Chrome/Desktop Icon	at (383, 958)	3	on_launch	Chrome.script
+2016-08-18 12:19:19.867 -0600	waitfor	Chrome/Refresh Icon	found at (211, 85)	4	on_launch	Chrome.script
+2016-08-18 12:19:19.876 -0600	Log		It took 5.218801 seconds to open.	5	on_launch	Chrome.script
+2016-08-18 12:19:25.161 -0600	click	Chrome/Refresh Icon	at (211, 85)	2	on_addressbar	Chrome.script
+2016-08-18 12:19:26.106 -0600	typetext		www.testplant.com[returnKey]	3	on_addressbar	Chrome.script
+2016-08-18 12:19:31.212 -0600	waitfor	Chrome/Refresh Icon	found at (211, 85)	4	on_addressbar	Chrome.script
+2016-08-18 12:19:31.220 -0600	Log		It took 5.099869 seconds to load webpage.	5	on_addressbar	Chrome.script
+2016-08-18 12:19:42.921 -0600	imagefound	Website/TestPlant Logo	found at (104, 201)	4	on_confirmloaded	Website.script
+2016-08-18 12:19:42.964 -0600	Log		Element was Found	16	on_confirmloaded	Website.script
+2016-08-18 12:19:43.034 -0600	Log		Looking for Your Industry	2	on_navigateto	Website.script
+2016-08-18 12:19:49.655 -0600	click	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(288,134), ImageRectangle:(252,130,324,138), Language:"English", text:"Your Industry", TextPlatform:"Generic OCR")	at (288, 134)	3	on_navigateto	Website.script
+2016-08-18 12:19:49.708 -0600	Log		Finance	14	on_index	Index.script
+2016-08-18 12:19:49.740 -0600	Log		Looking for Finance	2	on_navigateto	Website.script
+2016-08-18 12:19:56.998 -0600	click	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(152,170), ImageRectangle:(134,165,171,175), Language:"English", text:"Finance", TextPlatform:"Generic OCR")	at (152, 170)	3	on_navigateto	Website.script
+2016-08-18 12:20:07.550 -0600	imagefound	Website/Banner	found at (473, 324)	4	on_confirmloaded	Website.script
+2016-08-18 12:20:07.585 -0600	Log		Element was Found	16	on_confirmloaded	Website.script
+2016-08-18 12:20:12.858 -0600	click	Chrome/Close Tab Icon	at (236, 42)	2	on_reset	Chrome.script
+2016-08-18 12:20:19.564 -0600	click	Chrome/Open Tab Icon/iPad Mini	at (26, 49)	3	on_reset	Chrome.script
+2016-08-18 12:20:20.279 -0600	typetext		[homeKey]	2	on_close	Chrome.script
+2016-08-18 12:20:20.825 -0600	EndTestCase		(Duration:"88.493226", Errors:"0", Exceptions:"0", StartTime:"2016-08-18 12:18:52 -0600", Successes:"1", TestCase:"Index.script", Warnings:"0")
+2016-08-18 12:20:20.831 -0600	SUCCESS		Execution Time 0:01:28 Index.script

@@ -1,0 +1,8 @@
+﻿2016-08-23 08:43:52.367 -0700	START		Running Index.script
+2016-08-23 08:43:52.432 -0700	Log		08/23/16 08:43 AM	1	on_index	Index.script
+2016-08-23 08:43:52.452 -0700	Log		The Device SM-T280 has been picked	16	on_configure	DeviceLib.script
+2016-08-23 08:43:52.455 -0700	Log		SM-T280 will be used 	18	on_configure	DeviceLib.script
+2016-08-23 08:43:54.197 -0700	click	Chrome/Desktop Icon	at (465, 943)	3	on_launch	Chrome.script
+2016-08-23 08:43:54.203 -0700	Exception	Chrome/Microphone Icon	Could Not Open Image: Chrome/Microphone Icon	4	on_launch	Chrome.script
+2016-08-23 08:43:54.582 -0700	EndTestCase		(Duration:"2.213213", Errors:"1", Exceptions:"1", StartTime:"2016-08-23 08:43:52 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-23 08:43:54.955 -0700	FAILURE	Screen_Error.png	File Not Found imagefound Error - Could Not Open Image: Chrome/Microphone Icon -- Execution Time 0:00:02 Index.script

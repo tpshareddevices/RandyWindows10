@@ -1,0 +1,44 @@
+﻿2016-08-18 15:04:00.252 -0600	START		Running Index.script
+2016-08-18 15:04:00.363 -0600	connect		iPhone 6s:(null)	4	on_choose	DevicePicker.script
+2016-08-18 15:04:01.368 -0600	imagefound	Apple/Sleep Screen	found at (167, 213)	2	on_unlock	/Users/randyhesse/Documents/DeviceLabSuites/AppleDevices.suite/Scripts/Unlock.script
+2016-08-18 15:04:01.383 -0600	presshomebutton			3	on_unlock	/Users/randyhesse/Documents/DeviceLabSuites/AppleDevices.suite/Scripts/Unlock.script
+2016-08-18 15:04:02.188 -0600	swiperight		Swiped right from (0, 600) to (300, 600)	4	on_unlock	/Users/randyhesse/Documents/DeviceLabSuites/AppleDevices.suite/Scripts/Unlock.script
+2016-08-18 15:04:06.310 -0600	click		at (160, 845)	6	on_unlock	/Users/randyhesse/Documents/DeviceLabSuites/AppleDevices.suite/Scripts/Unlock.script
+2016-08-18 15:04:07.121 -0600	click		at (370, 1035)	7	on_unlock	/Users/randyhesse/Documents/DeviceLabSuites/AppleDevices.suite/Scripts/Unlock.script
+2016-08-18 15:04:07.937 -0600	click		at (580, 685)	8	on_unlock	/Users/randyhesse/Documents/DeviceLabSuites/AppleDevices.suite/Scripts/Unlock.script
+2016-08-18 15:04:08.749 -0600	click		at (370, 1035)	9	on_unlock	/Users/randyhesse/Documents/DeviceLabSuites/AppleDevices.suite/Scripts/Unlock.script
+2016-08-18 15:04:10.757 -0600	presshomebutton			11	on_unlock	/Users/randyhesse/Documents/DeviceLabSuites/AppleDevices.suite/Scripts/Unlock.script
+2016-08-18 15:04:11.462 -0600	presshomebutton			12	on_unlock	/Users/randyhesse/Documents/DeviceLabSuites/AppleDevices.suite/Scripts/Unlock.script
+2016-08-18 15:04:11.466 -0600	Log		Apple iPhone 6s	14	on_unlock	/Users/randyhesse/Documents/DeviceLabSuites/AppleDevices.suite/Scripts/Unlock.script
+2016-08-18 15:04:13.079 -0600	click	Chrome/Desktop Icon	at (286, 820)	3	on_launch	Chrome.script
+2016-08-18 15:04:14.777 -0600	waitfor	Chrome/Microphone Icon	found at (481, 521)	4	on_launch	Chrome.script
+2016-08-18 15:04:14.793 -0600	Log		It took 1.692561 seconds to open.	5	on_launch	Chrome.script
+2016-08-18 15:04:15.951 -0600	click	Chrome/Microphone Icon	at (481, 521)	2	on_addressbar	Chrome.script
+2016-08-18 15:04:16.894 -0600	typetext		www.testplant.com[returnKey]	3	on_addressbar	Chrome.script
+2016-08-18 15:04:20.890 -0600	imagefound	Website/TestPlant Logo	found at (369, 213)	4	on_confirmloaded	Website.script
+2016-08-18 15:04:20.932 -0600	Log		Element was Found	16	on_confirmloaded	Website.script
+2016-08-18 15:04:24.105 -0600	imagefound	Website/TopNavigation	found at (598, 206)	2	on_navigatetoindustry	Website.script
+2016-08-18 15:04:24.119 -0600	Log		Top Navigation Arrow was clicked	3	on_navigatetoindustry	Website.script
+2016-08-18 15:04:24.236 -0600	click		at (598, 206)	4	on_navigatetoindustry	Website.script
+2016-08-18 15:04:26.370 -0600	click	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(551,355), ImageRectangle:(455,345,647,366), Language:"English", Text:"Your Industry", TextPlatform:"Generic OCR")	at (551, 355)	6	on_navigatetoindustry	Website.script
+2016-08-18 15:04:31.425 -0600	imagefound	Website/Banner Robot	found at (458, 661)	4	on_confirmloaded	Website.script
+2016-08-18 15:04:31.467 -0600	Log		Element was Found	16	on_confirmloaded	Website.script
+2016-08-18 15:04:31.500 -0600	Log		Automotive	16	on_index	Index.script
+2016-08-18 15:04:31.836 -0600	imagefound	Website/BottomNavigation	found at (644, 1002)	2	on_navigatetoenterprise	Website.script
+2016-08-18 15:04:31.960 -0600	click		at (644, 1002)	4	on_navigatetoenterprise	Website.script
+2016-08-18 15:04:31.965 -0600	Log		Bottom Navigation Arrow was clicked	5	on_navigatetoenterprise	Website.script
+2016-08-18 15:04:31.980 -0600	Log		Using OCR to find:Automotive	9	on_navigatetoenterprise	Website.script
+2016-08-18 15:04:41.654 -0600	imagefound	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(138,1157), ImageRectangle:(79,1148,197,1166), Language:"English", text:"Automotive", TextPlatform:"Generic OCR")	found at (138, 1157)	10	on_navigatetoenterprise	Website.script
+2016-08-18 15:04:41.774 -0600	click		at (138, 1157)	11	on_navigatetoenterprise	Website.script
+2016-08-18 15:04:42.588 -0600	click		at (644, 1002)	17	on_navigatetoenterprise	Website.script
+2016-08-18 15:04:43.466 -0600	swipeup		Swiped up from (375, 934) to (375, 400)	18	on_index	Index.script
+2016-08-18 15:05:06.242 -0600	imagefound	Website/Banner Industry	Unable to Find Image Website/Banner Industry	4	on_confirmloaded	Website.script
+2016-08-18 15:05:06.259 -0600	LogError		Unable to Confirm Element: Website/Banner Industry	18	on_confirmloaded	Website.script
+2016-08-18 15:05:07.322 -0600	LogWarning		Unable to save /Users/randyhesse/Documents/DeviceLabSuites/TestPlantWebsite.suite/Results/Index/20160818_150400.249/Website/Banner Industry.png	19	on_confirmloaded	Website.script
+2016-08-18 15:05:07.544 -0600	swipedown		Swiped down from (375, 400) to (375, 934)	2	on_reset	Chrome.script
+2016-08-18 15:05:08.817 -0600	click	Chrome/Tab Menu Icon	at (615, 94)	3	on_reset	Chrome.script
+2016-08-18 15:05:10.663 -0600	click	Chrome/Tab Close Icon	at (669, 232)	4	on_reset	Chrome.script
+2016-08-18 15:05:11.650 -0600	click	Chrome/Tab Open Icon	at (60, 96)	5	on_reset	Chrome.script
+2016-08-18 15:05:12.365 -0600	typetext		[homeKey]	2	on_close	Chrome.script
+2016-08-18 15:05:13.203 -0600	EndTestCase		(Duration:"72.949203", Errors:"1", Exceptions:"0", StartTime:"2016-08-18 15:04:00 -0600", Successes:"0", TestCase:"Index.script", Warnings:"1")
+2016-08-18 15:05:13.648 -0600	FAILURE	Screen_Error.png	Script Error Number of Errors logged: 1 -- Execution Time 0:01:12 Index.script

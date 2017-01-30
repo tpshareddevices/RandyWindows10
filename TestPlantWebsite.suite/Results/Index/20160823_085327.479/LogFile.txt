@@ -1,0 +1,18 @@
+﻿2016-08-23 08:53:27.480 -0700	START		Running Index.script
+2016-08-23 08:53:27.530 -0700	Log		08/23/16 08:53 AM	1	on_index	Index.script
+2016-08-23 08:53:27.570 -0700	Log		The Device SM-T280 has been picked	16	on_configure	DeviceLib.script
+2016-08-23 08:53:27.573 -0700	Log		SM-T280 will be used 	18	on_configure	DeviceLib.script
+2016-08-23 08:53:28.793 -0700	click	Chrome/Desktop Icon	at (465, 943)	3	on_launch	Chrome.script
+2016-08-23 08:53:31.232 -0700	imagefound	Chrome/Microphone Icon	found at (451, 122)	4	on_launch	Chrome.script
+2016-08-23 08:53:31.237 -0700	Log		It took  to open.	5	on_launch	Chrome.script
+2016-08-23 08:53:31.852 -0700	click	Chrome/Microphone Icon	at (451, 122)	2	on_addressbar	Chrome.script
+2016-08-23 08:53:32.782 -0700	typetext		www.testplant.com[returnKey]	3	on_addressbar	Chrome.script
+2016-08-23 08:53:42.945 -0700	imagefound	Website/TestPlant Logo	found at (397, 229)	4	on_confirmloaded	Website.script
+2016-08-23 08:53:42.948 -0700	Log		Element was Found: Website/TestPlant Logo	16	on_confirmloaded	Website.script
+2016-08-23 08:53:43.519 -0700	imagefound	Website/TopNavigation	found at (634, 223)	2	on_navigatetoindustry	Website.script
+2016-08-23 08:53:43.524 -0700	Log		Top Navigation Arrow was clicked	3	on_navigatetoindustry	Website.script
+2016-08-23 08:53:43.610 -0700	click		at (634, 223)	4	on_navigatetoindustry	Website.script
+2016-08-23 08:53:50.305 -0700	click	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(520,377), ImageRectangle:(483,365,558,389), Language:"English", Text:"Your", TextPlatform:"Generic OCR", waitfor:"10")	at (520, 377)	7	on_navigatetoindustry	Website.script
+2016-08-23 08:53:50.367 -0700	Exception	Website/Banner Robot	Could Not Open Image: Website/Banner Robot	4	on_confirmloaded	Website.script
+2016-08-23 08:53:50.890 -0700	EndTestCase		(Duration:"23.407803", Errors:"1", Exceptions:"1", StartTime:"2016-08-23 08:53:27 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-23 08:53:51.207 -0700	FAILURE	Screen_Error.png	File Not Found imagefound Error - Could Not Open Image: Website/Banner Robot -- Execution Time 0:00:23 Index.script

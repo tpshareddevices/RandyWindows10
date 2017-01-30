@@ -1,0 +1,35 @@
+﻿2016-08-19 09:57:27.600 -0700	START		Running Index.script
+2016-08-19 09:57:27.651 -0700	Log		08/19/1609:57 AM	1	on_index	Index.script
+2016-08-19 09:57:27.679 -0700	presshomebutton			8	on_configure	DeviceLib.script
+2016-08-19 09:57:27.680 -0700	setoption		nextKeyDelay = 0.08	9	on_configure	DeviceLib.script
+2016-08-19 09:57:27.680 -0700	Log		This is Carrie's Device sitting in the Device Lab	10	on_configure	DeviceLib.script
+2016-08-19 09:57:27.684 -0700	Log		iPhone5,3 will be used 	14	on_configure	DeviceLib.script
+2016-08-19 09:57:29.345 -0700	click	Chrome/Desktop Icon	at (546, 818)	3	on_launch	Chrome.script
+2016-08-19 09:57:30.864 -0700	imagefound	Chrome/Microphone Icon	found at (337, 521)	4	on_launch	Chrome.script
+2016-08-19 09:57:30.865 -0700	Log		It took  to open.	5	on_launch	Chrome.script
+2016-08-19 09:57:31.348 -0700	click	Chrome/Microphone Icon	at (337, 521)	2	on_addressbar	Chrome.script
+2016-08-19 09:57:33.571 -0700	typetext		www.testplant.com[returnKey]	3	on_addressbar	Chrome.script
+2016-08-19 09:57:38.731 -0700	imagefound	Website/TestPlant Logo	found at (314, 213)	4	on_confirmloaded	Website.script
+2016-08-19 09:57:38.734 -0700	Log		Element was Found: Website/TestPlant Logo	16	on_confirmloaded	Website.script
+2016-08-19 09:57:41.340 -0700	imagefound	Website/TopNavigation	found at (508, 206)	2	on_navigatetoindustry	Website.script
+2016-08-19 09:57:41.344 -0700	Log		Top Navigation Arrow was clicked	3	on_navigatetoindustry	Website.script
+2016-08-19 09:57:41.435 -0700	click		at (508, 206)	4	on_navigatetoindustry	Website.script
+2016-08-19 09:57:46.689 -0700	click	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(470,355), ImageRectangle:(374,345,566,366), Language:"English", Text:"Your Industry", TextPlatform:"Generic OCR")	at (470, 355)	6	on_navigatetoindustry	Website.script
+2016-08-19 09:57:57.348 -0700	imagefound	Website/Banner Robot	found at (401, 733)	4	on_confirmloaded	Website.script
+2016-08-19 09:57:57.352 -0700	Log		Element was Found: Website/Banner Robot	16	on_confirmloaded	Website.script
+2016-08-19 09:57:57.359 -0700	Log		Finance	16	on_index	Index.script
+2016-08-19 09:57:58.499 -0700	imagefound	Website/BottomNavigation	found at (540, 1038)	2	on_navigatetoenterprise	Website.script
+2016-08-19 09:57:58.586 -0700	click		at (540, 1038)	4	on_navigatetoenterprise	Website.script
+2016-08-19 09:57:58.587 -0700	Log		Bottom Navigation Arrow was clicked	5	on_navigatetoenterprise	Website.script
+2016-08-19 09:57:58.589 -0700	Log		Using OCR to find:Finance	9	on_navigatetoenterprise	Website.script
+2016-08-19 09:58:10.630 -0700	imagefound	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(115,1127), ImageRectangle:(75,1118,156,1136), Language:"English", text:"Finance", TextPlatform:"Generic OCR")	found at (115, 1127)	10	on_navigatetoenterprise	Website.script
+2016-08-19 09:58:10.723 -0700	click		at (115, 1127)	11	on_navigatetoenterprise	Website.script
+2016-08-19 09:58:11.517 -0700	click		at (540, 1038)	18	on_navigatetoenterprise	Website.script
+2016-08-19 09:58:12.373 -0700	swipeup		Swiped up from (320, 795) to (320, 341)	18	on_index	Index.script
+2016-08-19 09:58:32.997 -0700	imagefound	Website/Banner Industry	Unable to Find Image Website/Banner Industry	4	on_confirmloaded	Website.script
+2016-08-19 09:58:33.006 -0700	LogError		Unable to Confirm Element: Website/Banner Industry	18	on_confirmloaded	Website.script
+2016-08-19 09:58:34.181 -0700	LogWarning		Unable to save /Users/eggbox/Desktop/DeviceLabSuites/TestPlantWebsite.suite/Results/Index/20160819_095727.598/Website/Banner Industry.png	19	on_confirmloaded	Website.script
+2016-08-19 09:58:34.349 -0700	swipedown		Swiped down from (320, 341) to (320, 795)	2	on_reset	Chrome.script
+2016-08-19 09:58:35.491 -0700	imagefound	Chrome/Tab Menu Icon	found at (505, 94)	4	on_reset	Chrome.script
+2016-08-19 09:58:36.849 -0700	EndTestCase		(Duration:"69.247121", Errors:"2", Exceptions:"0", StartTime:"2016-08-19 09:57:27 -0700", Successes:"0", TestCase:"Index.script", Warnings:"1")
+2016-08-19 09:58:36.850 -0700	ABORTED		Execution Time 0:01:09 Index.script

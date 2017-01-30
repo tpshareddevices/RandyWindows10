@@ -1,0 +1,8 @@
+﻿2016-08-19 09:24:10.075 -0700	START		Running Index.script
+2016-08-19 09:24:10.135 -0700	Log		08/19/1609:24 AM	1	on_index	Index.script
+2016-08-19 09:24:10.169 -0700	presshomebutton			8	on_configure	DeviceLib.script
+2016-08-19 09:24:10.170 -0700	Log		This is Carrie's Device sitting in the Device Lab	9	on_configure	DeviceLib.script
+2016-08-19 09:24:10.173 -0700	Log		iPhone5,3 will be used 	13	on_configure	DeviceLib.script
+2016-08-19 09:24:11.699 -0700	click	Chrome/Desktop Icon	at (546, 818)	3	on_launch	Chrome.script
+2016-08-19 09:24:26.799 -0700	EndTestCase		(Duration:"16.722309", Errors:"1", Exceptions:"0", StartTime:"2016-08-19 09:24:10 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-19 09:24:26.822 -0700	ABORTED		Execution Time 0:00:16 Index.script

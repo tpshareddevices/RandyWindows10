@@ -1,0 +1,11 @@
+﻿2016-08-19 09:03:51.189 -0700	START		Running Index.script
+2016-08-19 09:03:51.251 -0700	Log		08/19/16	1	on_index	Index.script
+2016-08-19 09:03:51.253 -0700	Log		09:03 AM	1	on_index	Index.script
+2016-08-19 09:03:51.274 -0700	presshomebutton			5	on_configure	DeviceLib.script
+2016-08-19 09:03:51.279 -0700	Log		Excute unlock Process	3	on_iphone6s	/Users/eggbox/Desktop/DeviceLabSuites/AppleDevices.suite/Scripts/Unlock.script
+2016-08-19 09:03:58.204 -0700	imagefound	Apple/Sleep Screen	Unable to Find Image Apple/Sleep Screen	4	on_iphone6s	/Users/eggbox/Desktop/DeviceLabSuites/AppleDevices.suite/Scripts/Unlock.script
+2016-08-19 09:03:58.206 -0700	Log		Apple iPhone 6s is Unlocked	17	on_iphone6s	/Users/eggbox/Desktop/DeviceLabSuites/AppleDevices.suite/Scripts/Unlock.script
+2016-08-19 09:03:58.225 -0700	Log		This is Randy's Phone sitting on his Desk	7	on_configure	DeviceLib.script
+2016-08-19 09:03:58.227 -0700	Log		iPhone7,2 will be used 	14	on_configure	DeviceLib.script
+2016-08-19 09:04:10.736 -0700	EndTestCase		(Duration:"19.545558", Errors:"1", Exceptions:"0", StartTime:"2016-08-19 09:03:51 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-19 09:04:10.737 -0700	ABORTED		Execution Time 0:00:19 Index.script

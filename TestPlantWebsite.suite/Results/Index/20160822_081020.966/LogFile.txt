@@ -1,0 +1,13 @@
+﻿2016-08-22 08:10:20.968 -0700	START		Running Index.script
+2016-08-22 08:10:21.047 -0700	Log		08/22/16 08:10 AM	1	on_index	Index.script
+2016-08-22 08:10:21.076 -0700	presshomebutton			12	on_configure	DeviceLib.script
+2016-08-22 08:10:21.077 -0700	setoption		nextKeyDelay = 0.08	13	on_configure	DeviceLib.script
+2016-08-22 08:10:21.077 -0700	Log		This is iPad Mini Device sitting in the Device Lab	14	on_configure	DeviceLib.script
+2016-08-22 08:10:21.082 -0700	Log		iPad2,5 will be used 	18	on_configure	DeviceLib.script
+2016-08-22 08:10:22.112 -0700	click	Chrome/Desktop Icon	at (383, 958)	3	on_launch	Chrome.script
+2016-08-22 08:10:32.488 -0700	imagefound	Chrome/Microphone Icon	found at (377, 421)	4	on_launch	Chrome.script
+2016-08-22 08:10:32.490 -0700	Log		It took  to open.	5	on_launch	Chrome.script
+2016-08-22 08:10:48.162 -0700	click	Chrome/Microphone Icon	at (377, 421)	2	on_addressbar	Chrome.script
+2016-08-22 08:10:50.386 -0700	typetext		www.testplant.com[returnKey]	3	on_addressbar	Chrome.script
+2016-08-22 08:11:01.886 -0700	EndTestCase		(Duration:"40.860623", Errors:"1", Exceptions:"0", StartTime:"2016-08-22 08:10:21 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-22 08:11:01.887 -0700	ABORTED		Execution Time 0:00:40 Index.script

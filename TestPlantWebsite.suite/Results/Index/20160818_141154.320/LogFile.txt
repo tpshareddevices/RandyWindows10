@@ -1,0 +1,4 @@
+﻿2016-08-18 14:11:54.321 -0600	START		Running Index.script
+2016-08-18 14:11:55.262 -0600	click	Chrome/Desktop Icon	at (286, 820)	3	on_launch	Chrome.script
+2016-08-18 14:12:10.601 -0600	EndTestCase		(Duration:"16.278339", Errors:"1", Exceptions:"0", StartTime:"2016-08-18 14:11:54 -0600", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-18 14:12:10.602 -0600	ABORTED		Execution Time 0:00:16 Index.script

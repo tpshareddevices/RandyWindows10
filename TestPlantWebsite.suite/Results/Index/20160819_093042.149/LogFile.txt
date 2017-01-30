@@ -1,0 +1,21 @@
+﻿2016-08-19 09:30:42.201 -0700	START		Running Index.script
+2016-08-19 09:30:42.266 -0700	Log		08/19/1609:30 AM	1	on_index	Index.script
+2016-08-19 09:30:42.303 -0700	presshomebutton			8	on_configure	DeviceLib.script
+2016-08-19 09:30:42.304 -0700	Log		This is Carrie's Device sitting in the Device Lab	9	on_configure	DeviceLib.script
+2016-08-19 09:30:42.307 -0700	Log		iPhone5,3 will be used 	13	on_configure	DeviceLib.script
+2016-08-19 09:30:44.418 -0700	click	Chrome/Desktop Icon	at (546, 818)	3	on_launch	Chrome.script
+2016-08-19 09:31:14.560 -0700	imagefound	Chrome/Microphone Icon	Unable to Find Image Chrome/Microphone Icon within 30.00 seconds	4	on_launch	Chrome.script
+2016-08-19 09:31:14.732 -0700	swipedown		Swiped down from (320, 341) to (320, 795)	2	on_reset	Chrome.script
+2016-08-19 09:31:17.692 -0700	imagefound	Chrome/Tab Menu Icon	found at (505, 94)	4	on_reset	Chrome.script
+2016-08-19 09:31:18.202 -0700	click	Chrome/Tab Menu Icon	at (505, 94)	5	on_reset	Chrome.script
+2016-08-19 09:31:19.997 -0700	click	Chrome/Tab Close Icon	at (559, 232)	6	on_reset	Chrome.script
+2016-08-19 09:31:21.251 -0700	click	Chrome/Tab Open Icon	at (60, 96)	7	on_reset	Chrome.script
+2016-08-19 09:31:24.113 -0700	click	Chrome/Microphone Icon	at (337, 521)	2	on_addressbar	Chrome.script
+2016-08-19 09:31:25.047 -0700	typetext		www.testplant.com[returnKey]	3	on_addressbar	Chrome.script
+2016-08-19 09:31:47.569 -0700	imagefound	Website/TestPlant Logo	Unable to Find Image Website/TestPlant Logo	4	on_confirmloaded	Website.script
+2016-08-19 09:31:47.573 -0700	LogError		Unable to Confirm Element: Website/TestPlant Logo	18	on_confirmloaded	Website.script
+2016-08-19 09:31:48.747 -0700	LogWarning		Unable to save /Users/eggbox/Desktop/DeviceLabSuites/TestPlantWebsite.suite/Results/Index/20160819_093042.149/Website/TestPlant Logo.png	19	on_confirmloaded	Website.script
+2016-08-19 09:32:13.457 -0700	imagefound	Website/TopNavigation	Unable to Find Image Website/TopNavigation	2	on_navigatetoindustry	Website.script
+2016-08-19 09:32:33.435 -0700	Exception	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:"", ImageRectangle:"", Language:"English", Text:"Your Industry", TextPlatform:"Generic OCR")	No Image Found On Screen: "(TEXT:"Your Industry")"	6	on_navigatetoindustry	Website.script
+2016-08-19 09:32:34.040 -0700	EndTestCase		(Duration:"111.836079", Errors:"2", Exceptions:"1", StartTime:"2016-08-19 09:30:42 -0700", Successes:"0", TestCase:"Index.script", Warnings:"1")
+2016-08-19 09:32:34.041 -0700	ABORTED		Execution Time 0:01:51 Index.script

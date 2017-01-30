@@ -1,0 +1,13 @@
+﻿2016-08-22 09:41:53.034 -0700	START		Running Index.script
+2016-08-22 09:41:53.081 -0700	Log		08/22/16 09:41 AM	1	on_index	Index.script
+2016-08-22 09:41:53.118 -0700	presshomebutton			12	on_configure	DeviceLib.script
+2016-08-22 09:41:53.119 -0700	setoption		nextKeyDelay = 0.08	13	on_configure	DeviceLib.script
+2016-08-22 09:41:53.120 -0700	Log		This is iPad Mini Device sitting in the Device Lab	14	on_configure	DeviceLib.script
+2016-08-22 09:41:53.124 -0700	Log		iPad2,5 will be used 	18	on_configure	DeviceLib.script
+2016-08-22 09:41:54.240 -0700	click	Chrome/Desktop Icon	at (383, 958)	3	on_launch	Chrome.script
+2016-08-22 09:42:11.544 -0700	imagefound	Chrome/Microphone Icon	Unable to Find Image Chrome/Microphone Icon within 10.00 seconds	4	on_launch	Chrome.script
+2016-08-22 09:42:11.695 -0700	swipedown		Swiped down from (384, 307) to (384, 717)	2	on_reset	Chrome.script
+2016-08-22 09:42:18.596 -0700	imagefound	Chrome/Tab Menu Icon	Unable to Find Image Chrome/Tab Menu Icon	4	on_reset	Chrome.script
+2016-08-22 09:42:52.153 -0700	Exception	Chrome/Microphone Icon	No Image Found On Screen: "Chrome/Microphone Icon"	2	on_addressbar	Chrome.script
+2016-08-22 09:42:53.078 -0700	EndTestCase		(Duration:"60.041495", Errors:"1", Exceptions:"1", StartTime:"2016-08-22 09:41:53 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-22 09:42:53.223 -0700	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "Chrome/Microphone Icon" -- Execution Time 0:01:00 Index.script

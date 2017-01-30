@@ -1,0 +1,34 @@
+﻿2016-08-18 14:33:40.884 -0600	START		Running Index.script
+2016-08-18 14:33:41.969 -0600	click	Chrome/Desktop Icon	at (546, 818)	3	on_launch	Chrome.script
+2016-08-18 14:33:43.503 -0600	waitfor	Chrome/Microphone Icon	found at (337, 521)	4	on_launch	Chrome.script
+2016-08-18 14:33:43.512 -0600	Log		It took 1.525923 seconds to open.	5	on_launch	Chrome.script
+2016-08-18 14:33:44.032 -0600	click	Chrome/Microphone Icon	at (337, 521)	2	on_addressbar	Chrome.script
+2016-08-18 14:33:44.974 -0600	typetext		www.testplant.com[returnKey]	3	on_addressbar	Chrome.script
+2016-08-18 14:33:51.935 -0600	imagefound	Website/TestPlant Logo	found at (314, 213)	4	on_confirmloaded	Website.script
+2016-08-18 14:33:51.977 -0600	Log		Element was Found	16	on_confirmloaded	Website.script
+2016-08-18 14:33:53.351 -0600	imagefound	Website/TopNavigation	found at (508, 206)	2	on_navigatetoindustry	Website.script
+2016-08-18 14:33:53.363 -0600	Log		Top Navigation Arrow was clicked	3	on_navigatetoindustry	Website.script
+2016-08-18 14:33:53.494 -0600	click		at (508, 206)	4	on_navigatetoindustry	Website.script
+2016-08-18 14:33:57.903 -0600	click	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(470,355), ImageRectangle:(374,345,566,366), Language:"English", Text:"Your Industry", TextPlatform:"Generic OCR")	at (470, 355)	6	on_navigatetoindustry	Website.script
+2016-08-18 14:34:18.213 -0600	imagefound	Website/Banner Robot	Unable to Find Image Website/Banner Robot	4	on_confirmloaded	Website.script
+2016-08-18 14:34:18.243 -0600	LogError		Unable to Confirm Element: Website/Banner Robot	18	on_confirmloaded	Website.script
+2016-08-18 14:34:19.270 -0600	LogWarning		Unable to save /Users/randyhesse/Documents/DeviceLabSuites/TestPlantWebsite.suite/Results/Index/20160818_143340.882/Website/Banner Robot.png	19	on_confirmloaded	Website.script
+2016-08-18 14:34:19.306 -0600	Log		Finance	17	on_index	Index.script
+2016-08-18 14:34:20.363 -0600	imagefound	Website/BottomNavigation	found at (540, 1038)	2	on_navigatetoenterprise	Website.script
+2016-08-18 14:34:20.485 -0600	click		at (540, 1038)	4	on_navigatetoenterprise	Website.script
+2016-08-18 14:34:20.489 -0600	Log		Bottom Navigation Arrow was clicked	5	on_navigatetoenterprise	Website.script
+2016-08-18 14:34:20.503 -0600	Log		Using OCR to find:Finance	9	on_navigatetoenterprise	Website.script
+2016-08-18 14:34:26.539 -0600	imagefound	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(115,1127), ImageRectangle:(75,1118,156,1136), Language:"English", text:"Finance", TextPlatform:"Generic OCR")	found at (115, 1127)	10	on_navigatetoenterprise	Website.script
+2016-08-18 14:34:26.659 -0600	click		at (115, 1127)	11	on_navigatetoenterprise	Website.script
+2016-08-18 14:34:27.468 -0600	click		at (540, 1038)	17	on_navigatetoenterprise	Website.script
+2016-08-18 14:34:28.320 -0600	swipeup		Swiped up from (320, 795) to (320, 341)	19	on_index	Index.script
+2016-08-18 14:34:50.559 -0600	imagefound	Website/Banner Industry	Unable to Find Image Website/Banner Industry	4	on_confirmloaded	Website.script
+2016-08-18 14:34:50.578 -0600	LogError		Unable to Confirm Element: Website/Banner Industry	18	on_confirmloaded	Website.script
+2016-08-18 14:34:51.626 -0600	LogWarning		Unable to save /Users/randyhesse/Documents/DeviceLabSuites/TestPlantWebsite.suite/Results/Index/20160818_143340.882/Website/Banner Industry.png	19	on_confirmloaded	Website.script
+2016-08-18 14:34:51.833 -0600	swipedown		Swiped down from (320, 341) to (320, 795)	2	on_reset	Chrome.script
+2016-08-18 14:34:52.909 -0600	click	Chrome/Tab Menu Icon	at (505, 94)	3	on_reset	Chrome.script
+2016-08-18 14:34:54.165 -0600	click	Chrome/Tab Close Icon	at (559, 232)	4	on_reset	Chrome.script
+2016-08-18 14:34:55.390 -0600	click	Chrome/Tab Open Icon	at (60, 96)	5	on_reset	Chrome.script
+2016-08-18 14:34:56.108 -0600	typetext		[homeKey]	2	on_close	Chrome.script
+2016-08-18 14:34:56.871 -0600	EndTestCase		(Duration:"75.985359", Errors:"2", Exceptions:"0", StartTime:"2016-08-18 14:33:40 -0600", Successes:"0", TestCase:"Index.script", Warnings:"2")
+2016-08-18 14:34:57.635 -0600	FAILURE	Screen_Error.png	Script Error Number of Errors logged: 2 -- Execution Time 0:01:15 Index.script

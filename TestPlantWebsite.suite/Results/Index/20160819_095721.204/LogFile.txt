@@ -1,0 +1,5 @@
+﻿2016-08-19 09:57:21.207 -0700	START		Running Index.script
+2016-08-19 09:57:21.258 -0700	Log		08/19/1609:57 AM	1	on_index	Index.script
+2016-08-19 09:57:21.298 -0700	Exception		Remote Connection Unavailable	3	on_configure	DeviceLib.script
+2016-08-19 09:57:21.902 -0700	EndTestCase		(Duration:"0.692047", Errors:"1", Exceptions:"1", StartTime:"2016-08-19 09:57:21 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-19 09:57:21.955 -0700	FAILURE		No Remote Connection sutinfo Error - Remote Connection Unavailable -- Execution Time 0:00:00 Index.script

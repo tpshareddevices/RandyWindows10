@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<runHistory script="Chrome">
+ <run>
+  <RunDate>2016-08-23 08:43:22.816 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>0.069696</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20160823_084322.816/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2016-08-23 08:45:28.099 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>0.002789</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20160823_084528.099/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+ <run>
+  <RunDate>2016-08-23 08:46:45.594 -0700</RunDate>
+  <Status>Success</Status>
+  <Duration>0.007018</Duration>
+  <Errors>0</Errors>
+  <Warnings>0</Warnings>
+  <Exceptions>0</Exceptions>
+  <Successes>1</Successes>
+  <LogFile>20160823_084645.594/LogFile.txt</LogFile>
+  <ReturnValue></ReturnValue>
+  <ErrorMessage></ErrorMessage>
+ </run>
+</runHistory>

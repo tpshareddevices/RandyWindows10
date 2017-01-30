@@ -1,0 +1,41 @@
+﻿2016-08-23 08:57:30.792 -0700	START		Running Index.script
+2016-08-23 08:57:30.812 -0700	Log		08/23/16 08:57 AM	1	on_index	Index.script
+2016-08-23 08:57:30.828 -0700	Log		The Device SM-T280 has been picked	16	on_configure	DeviceLib.script
+2016-08-23 08:57:30.831 -0700	Log		SM-T280 will be used 	18	on_configure	DeviceLib.script
+2016-08-23 08:57:31.764 -0700	click	Chrome/Desktop Icon	at (465, 943)	3	on_launch	Chrome.script
+2016-08-23 08:57:34.098 -0700	imagefound	Chrome/Microphone Icon	found at (451, 122)	4	on_launch	Chrome.script
+2016-08-23 08:57:34.101 -0700	Log		It took  to open.	5	on_launch	Chrome.script
+2016-08-23 08:57:34.603 -0700	click	Chrome/Microphone Icon	at (451, 122)	2	on_addressbar	Chrome.script
+2016-08-23 08:57:35.535 -0700	typetext		www.testplant.com[returnKey]	3	on_addressbar	Chrome.script
+2016-08-23 08:57:45.510 -0700	imagefound	Website/TestPlant Logo	found at (397, 229)	4	on_confirmloaded	Website.script
+2016-08-23 08:57:45.511 -0700	Log		Element was Found: Website/TestPlant Logo	16	on_confirmloaded	Website.script
+2016-08-23 08:57:46.245 -0700	imagefound	Website/TopNavigation	found at (634, 223)	2	on_navigatetoindustry	Website.script
+2016-08-23 08:57:46.249 -0700	Log		Top Navigation Arrow was clicked	3	on_navigatetoindustry	Website.script
+2016-08-23 08:57:46.340 -0700	click		at (634, 223)	4	on_navigatetoindustry	Website.script
+2016-08-23 08:57:52.822 -0700	click	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(520,377), ImageRectangle:(483,365,558,389), Language:"English", Text:"Your", TextPlatform:"Generic OCR", waitfor:"10")	at (520, 377)	7	on_navigatetoindustry	Website.script
+2016-08-23 08:58:07.990 -0700	imagefound	Website/Banner Robot	Unable to Find Image Website/Banner Robot	4	on_confirmloaded	Website.script
+2016-08-23 08:58:08.037 -0700	LogError		Unable to Confirm Element: Website/Banner Robot	18	on_confirmloaded	Website.script
+2016-08-23 08:58:08.296 -0700	capturescreen	().png		19	on_confirmloaded	Website.script
+2016-08-23 08:58:08.299 -0700	Log		Finance	16	on_index	Index.script
+2016-08-23 08:58:08.781 -0700	imagefound	Website/BottomNavigation	found at (716, 924)	5	on_navigatetoenterprise	Website.script
+2016-08-23 08:58:09.271 -0700	click	Website/BottomNavigation	at (716, 924)	16	on_navigatetoenterprise	Website.script
+2016-08-23 08:58:09.275 -0700	Log		Bottom Navigation Arrow was clicked	17	on_navigatetoenterprise	Website.script
+2016-08-23 08:58:09.277 -0700	Log		Using OCR we are looking for: Finance	21	on_navigatetoenterprise	Website.script
+2016-08-23 08:58:33.591 -0700	imagefound	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:"", ImageRectangle:"", Language:"English", text:"Finance", TextPlatform:"Generic OCR")	Unable to Find Image (TEXT:"Finance")	22	on_navigatetoenterprise	Website.script
+2016-08-23 08:58:33.804 -0700	swipeup		Swiped up from (400, 896) to (400, 384)	26	on_navigatetoenterprise	Website.script
+2016-08-23 08:59:08.930 -0700	imagefound	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:"", ImageRectangle:"", Language:"English", text:"Finance", TextPlatform:"Generic OCR")	Unable to Find Image (TEXT:"Finance")	29	on_navigatetoenterprise	Website.script
+2016-08-23 08:59:09.104 -0700	swipeup		Swiped up from (400, 896) to (400, 384)	26	on_navigatetoenterprise	Website.script
+2016-08-23 08:59:49.818 -0700	imagefound	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:"", ImageRectangle:"", Language:"English", text:"Finance", TextPlatform:"Generic OCR")	Unable to Find Image (TEXT:"Finance")	29	on_navigatetoenterprise	Website.script
+2016-08-23 08:59:49.982 -0700	swipeup		Swiped up from (400, 896) to (400, 384)	26	on_navigatetoenterprise	Website.script
+2016-08-23 08:59:56.359 -0700	imagefound	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(371,1195), ImageRectangle:(346,1189,396,1201), Language:"English", text:"Finance", TextPlatform:"Generic OCR")	found at (371, 1195)	29	on_navigatetoenterprise	Website.script
+2016-08-23 09:00:01.283 -0700	click	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(371,1195), ImageRectangle:(346,1189,396,1201), Language:"English", text:"Finance", TextPlatform:"Generic OCR")	at (371, 1195)	34	on_navigatetoenterprise	Website.script
+2016-08-23 09:00:01.328 -0700	Log		Clicked on Finance	35	on_navigatetoenterprise	Website.script
+2016-08-23 09:00:06.384 -0700	imagefound	Website/Banner Robot	Unable to Find Image Website/Banner Robot	36	on_navigatetoenterprise	Website.script
+2016-08-23 09:00:06.547 -0700	swipedown		Swiped down from (400, 384) to (400, 896)	38	on_navigatetoenterprise	Website.script
+2016-08-23 09:00:19.650 -0700	imagefound	Website/BottomNavigation	Unable to Find Image Website/BottomNavigation	5	on_navigatetoenterprise	Website.script
+2016-08-23 09:00:19.821 -0700	swipeup		Swiped up from (400, 896) to (400, 384)	10	on_navigatetoenterprise	Website.script
+2016-08-23 09:00:35.390 -0700	imagefound	Website/BottomNavigation	Unable to Find Image Website/BottomNavigation	13	on_navigatetoenterprise	Website.script
+2016-08-23 09:00:35.394 -0700	LogError		Unable to Find Bottom Navigation	7	on_navigatetoenterprise	Website.script
+2016-08-23 09:00:55.985 -0700	Exception	Website/BottomNavigation	No Image Found On Screen: "Website/BottomNavigation"	16	on_navigatetoenterprise	Website.script
+2016-08-23 09:00:56.494 -0700	EndTestCase		(Duration:"205.700336", Errors:"3", Exceptions:"1", StartTime:"2016-08-23 08:57:30 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-23 09:00:56.495 -0700	ABORTED		Execution Time 0:03:25 Index.script

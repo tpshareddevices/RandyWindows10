@@ -1,0 +1,7 @@
+﻿2016-08-18 14:14:39.880 -0600	START		Running Index.script
+2016-08-18 14:14:41.018 -0600	click	Chrome/Desktop Icon	at (286, 820)	3	on_launch	Chrome.script
+2016-08-18 14:14:42.506 -0600	waitfor	Chrome/Microphone Icon	found at (481, 521)	4	on_launch	Chrome.script
+2016-08-18 14:14:42.534 -0600	Log		It took 1.475476 seconds to open.	5	on_launch	Chrome.script
+2016-08-18 14:14:50.522 -0600	Exception	Chrome/Refresh Icon	No Image Found On Screen: "Chrome/Refresh Icon"	2	on_addressbar	Chrome.script
+2016-08-18 14:14:51.287 -0600	EndTestCase		(Duration:"11.405414", Errors:"1", Exceptions:"1", StartTime:"2016-08-18 14:14:39 -0600", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-18 14:14:51.355 -0600	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "Chrome/Refresh Icon" -- Execution Time 0:00:11 Index.script

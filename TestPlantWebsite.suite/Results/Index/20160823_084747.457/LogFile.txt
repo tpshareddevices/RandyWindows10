@@ -1,0 +1,17 @@
+﻿2016-08-23 08:47:47.458 -0700	START		Running Index.script
+2016-08-23 08:47:47.507 -0700	Log		08/23/16 08:47 AM	1	on_index	Index.script
+2016-08-23 08:47:47.553 -0700	Log		The Device SM-T280 has been picked	16	on_configure	DeviceLib.script
+2016-08-23 08:47:47.555 -0700	Log		SM-T280 will be used 	18	on_configure	DeviceLib.script
+2016-08-23 08:47:47.937 -0700	click	Chrome/Desktop Icon	at (465, 943)	3	on_launch	Chrome.script
+2016-08-23 08:47:49.761 -0700	imagefound	Chrome/Microphone Icon	found at (451, 122)	4	on_launch	Chrome.script
+2016-08-23 08:47:49.764 -0700	Log		It took  to open.	5	on_launch	Chrome.script
+2016-08-23 08:47:50.749 -0700	click	Chrome/Microphone Icon	at (451, 122)	2	on_addressbar	Chrome.script
+2016-08-23 08:47:51.676 -0700	typetext		www.testplant.com[returnKey]	3	on_addressbar	Chrome.script
+2016-08-23 08:48:02.487 -0700	imagefound	Website/TestPlant Logo	found at (397, 229)	4	on_confirmloaded	Website.script
+2016-08-23 08:48:02.536 -0700	Log		Element was Found: Website/TestPlant Logo	16	on_confirmloaded	Website.script
+2016-08-23 08:48:03.053 -0700	imagefound	Website/TopNavigation	found at (634, 223)	2	on_navigatetoindustry	Website.script
+2016-08-23 08:48:03.057 -0700	Log		Top Navigation Arrow was clicked	3	on_navigatetoindustry	Website.script
+2016-08-23 08:48:03.141 -0700	click		at (634, 223)	4	on_navigatetoindustry	Website.script
+2016-08-23 08:48:31.100 -0700	Exception	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:"", ImageRectangle:"", Language:"English", Text:"Your Industry", TextPlatform:"Generic OCR", waitfor:"10")	No Image Found On Screen: "(TEXT:"Your Industry")"	6	on_navigatetoindustry	Website.script
+2016-08-23 08:48:31.734 -0700	EndTestCase		(Duration:"44.273507", Errors:"1", Exceptions:"1", StartTime:"2016-08-23 08:47:47 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-23 08:48:31.735 -0700	ABORTED		Execution Time 0:00:44 Index.script

@@ -1,0 +1,7 @@
+﻿2016-08-23 08:45:36.796 -0700	START		Running Index.script
+2016-08-23 08:45:36.871 -0700	Log		08/23/16 08:45 AM	1	on_index	Index.script
+2016-08-23 08:45:36.890 -0700	Log		The Device SM-T280 has been picked	16	on_configure	DeviceLib.script
+2016-08-23 08:45:36.893 -0700	Log		SM-T280 will be used 	18	on_configure	DeviceLib.script
+2016-08-23 08:46:19.315 -0700	Exception	Chrome/Desktop Icon	No Image Found On Screen: "Chrome/Desktop Icon"	3	on_launch	Chrome.script
+2016-08-23 08:46:19.806 -0700	EndTestCase		(Duration:"43.006348", Errors:"1", Exceptions:"1", StartTime:"2016-08-23 08:45:36 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-23 08:46:19.936 -0700	FAILURE	Screen_Error.png	Image Not Found click Error - No Image Found On Screen: "Chrome/Desktop Icon" -- Execution Time 0:00:43 Index.script

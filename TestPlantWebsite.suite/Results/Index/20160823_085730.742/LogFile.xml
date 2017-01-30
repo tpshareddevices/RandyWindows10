@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Index.script" package="TestPlantWebsite.suite" timestamp="2016-08-23 08:57:30.742 -0700"
+ tests="1" successes="(null)" errors="(null)" time="0.000000">
+  <properties>
+   <property name="RunDate" value="2016-08-23 08:57:30.742 -0700"/>
+   <property name="Status" value="Running"/>
+  </properties>
+  <testcase name="Index.script" assertions="3" successes="0" errors="3" time="205.700336">
+    <failure type="LogError">Unable to Confirm Element: Website/Banner Robot</failure>
+    <failure type="LogError">Unable to Find Bottom Navigation</failure>
+  </testcase>
+ </testsuite>
+</testsuites>

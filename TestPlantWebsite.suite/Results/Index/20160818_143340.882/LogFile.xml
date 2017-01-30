@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<testsuites>
+ <testsuite name="Index.script" package="TestPlantWebsite.suite" timestamp="2016-08-18 14:33:40.882 -0600"
+ tests="1" successes="0" errors="2" time="75.987685">
+  <properties>
+   <property name="RunDate" value="2016-08-18 14:33:40.882 -0600"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Index.script" assertions="2" successes="0" errors="2" time="75.985359">
+    <failure type="LogError">Unable to Confirm Element: Website/Banner Robot</failure>
+    <failure type="LogError">Unable to Confirm Element: Website/Banner Industry</failure>
+  </testcase>
+ </testsuite>
+</testsuites>

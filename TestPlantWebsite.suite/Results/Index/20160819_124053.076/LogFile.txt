@@ -1,0 +1,11 @@
+﻿2016-08-19 12:40:53.077 -0700	START		Running Index.script
+2016-08-19 12:40:53.133 -0700	Log		08/19/16 12:40 PM	1	on_index	Index.script
+2016-08-19 12:40:53.161 -0700	presshomebutton			12	on_configure	DeviceLib.script
+2016-08-19 12:40:53.162 -0700	Log		This is iPad Mini Device sitting in the Device Lab	13	on_configure	DeviceLib.script
+2016-08-19 12:40:53.165 -0700	Log		iPad2,5 will be used 	17	on_configure	DeviceLib.script
+2016-08-19 12:41:09.803 -0700	click	Chrome/Desktop Icon	at (383, 958)	3	on_launch	Chrome.script
+2016-08-19 12:41:20.186 -0700	imagefound	Chrome/Microphone Icon	found at (377, 421)	4	on_launch	Chrome.script
+2016-08-19 12:41:20.189 -0700	Log		It took  to open.	5	on_launch	Chrome.script
+2016-08-19 12:41:20.242 -0700	Exception	10	Could Not Open Image: 10	2	on_addressbar	Chrome.script
+2016-08-19 12:41:20.902 -0700	EndTestCase		(Duration:"27.822063", Errors:"1", Exceptions:"1", StartTime:"2016-08-19 12:40:53 -0700", Successes:"0", TestCase:"Index.script", Warnings:"0")
+2016-08-19 12:41:26.119 -0700	FAILURE	Screen_Error.png	File Not Found click Error - Could Not Open Image: 10 -- Execution Time 0:00:27 Index.script

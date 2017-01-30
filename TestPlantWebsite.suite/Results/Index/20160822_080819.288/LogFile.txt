@@ -1,0 +1,15 @@
+﻿2016-08-22 08:08:19.291 -0700	START		Running Index.script
+2016-08-22 08:08:19.348 -0700	Log		08/22/16 08:08 AM	1	on_index	Index.script
+2016-08-22 08:08:30.955 -0700	presshomebutton			12	on_configure	DeviceLib.script
+2016-08-22 08:08:30.956 -0700	Log		This is iPad Mini Device sitting in the Device Lab	13	on_configure	DeviceLib.script
+2016-08-22 08:08:30.960 -0700	Log		iPad2,5 will be used 	17	on_configure	DeviceLib.script
+2016-08-22 08:08:31.917 -0700	click	Chrome/Desktop Icon	at (383, 958)	3	on_launch	Chrome.script
+2016-08-22 08:08:42.301 -0700	imagefound	Chrome/Microphone Icon	found at (377, 421)	4	on_launch	Chrome.script
+2016-08-22 08:08:42.306 -0700	Log		It took  to open.	5	on_launch	Chrome.script
+2016-08-22 08:08:58.038 -0700	click	Chrome/Microphone Icon	at (377, 421)	2	on_addressbar	Chrome.script
+2016-08-22 08:08:58.982 -0700	typetext		www.testplant.com[returnKey]	3	on_addressbar	Chrome.script
+2016-08-22 08:09:26.211 -0700	imagefound	Website/TestPlant Logo	Unable to Find Image Website/TestPlant Logo	4	on_confirmloaded	Website.script
+2016-08-22 08:09:26.214 -0700	LogError		Unable to Confirm Element: Website/TestPlant Logo	18	on_confirmloaded	Website.script
+2016-08-22 08:09:48.361 -0700	LogWarning		Unable to save /Users/eggbox/Desktop/DeviceLabSuites/TestPlantWebsite.suite/Results/Index/20160822_080819.288/Website/TestPlant Logo.png	19	on_confirmloaded	Website.script
+2016-08-22 08:09:49.182 -0700	EndTestCase		(Duration:"89.889335", Errors:"2", Exceptions:"0", StartTime:"2016-08-22 08:08:19 -0700", Successes:"0", TestCase:"Index.script", Warnings:"1")
+2016-08-22 08:09:49.183 -0700	ABORTED		Execution Time 0:01:29 Index.script

@@ -1,0 +1,47 @@
+﻿2016-08-19 09:33:37.128 -0700	START		Running Index.script
+2016-08-19 09:33:37.182 -0700	Log		08/19/1609:33 AM	1	on_index	Index.script
+2016-08-19 09:33:37.211 -0700	presshomebutton			8	on_configure	DeviceLib.script
+2016-08-19 09:33:37.212 -0700	setoption		nextKeyDelay = 0.08	9	on_configure	DeviceLib.script
+2016-08-19 09:33:37.212 -0700	Log		This is Carrie's Device sitting in the Device Lab	10	on_configure	DeviceLib.script
+2016-08-19 09:33:37.217 -0700	Log		iPhone5,3 will be used 	14	on_configure	DeviceLib.script
+2016-08-19 09:33:40.067 -0700	click	Chrome/Desktop Icon	at (546, 818)	3	on_launch	Chrome.script
+2016-08-19 09:34:10.675 -0700	imagefound	Chrome/Microphone Icon	Unable to Find Image Chrome/Microphone Icon within 30.00 seconds	4	on_launch	Chrome.script
+2016-08-19 09:34:10.852 -0700	swipedown		Swiped down from (320, 341) to (320, 795)	2	on_reset	Chrome.script
+2016-08-19 09:34:12.637 -0700	imagefound	Chrome/Tab Menu Icon	found at (505, 99)	4	on_reset	Chrome.script
+2016-08-19 09:34:13.104 -0700	click	Chrome/Tab Menu Icon	at (505, 95)	5	on_reset	Chrome.script
+2016-08-19 09:34:14.333 -0700	click	Chrome/Tab Close Icon	at (559, 232)	6	on_reset	Chrome.script
+2016-08-19 09:34:15.386 -0700	click	Chrome/Tab Open Icon	at (60, 96)	7	on_reset	Chrome.script
+2016-08-19 09:34:17.961 -0700	click	Chrome/Microphone Icon	at (337, 521)	2	on_addressbar	Chrome.script
+2016-08-19 09:34:20.174 -0700	typetext		www.testplant.com[returnKey]	3	on_addressbar	Chrome.script
+2016-08-19 09:34:25.594 -0700	imagefound	Website/TestPlant Logo	found at (314, 213)	4	on_confirmloaded	Website.script
+2016-08-19 09:34:25.597 -0700	Log		Element was Found: Website/TestPlant Logo	16	on_confirmloaded	Website.script
+2016-08-19 09:34:28.894 -0700	imagefound	Website/TopNavigation	found at (508, 206)	2	on_navigatetoindustry	Website.script
+2016-08-19 09:34:28.898 -0700	Log		Top Navigation Arrow was clicked	3	on_navigatetoindustry	Website.script
+2016-08-19 09:34:28.984 -0700	click		at (508, 206)	4	on_navigatetoindustry	Website.script
+2016-08-19 09:34:34.015 -0700	click	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(470,355), ImageRectangle:(374,345,566,366), Language:"English", Text:"Your Industry", TextPlatform:"Generic OCR")	at (470, 355)	6	on_navigatetoindustry	Website.script
+2016-08-19 09:34:42.231 -0700	imagefound	Website/Banner Robot	found at (401, 733)	4	on_confirmloaded	Website.script
+2016-08-19 09:34:42.282 -0700	Log		Element was Found: Website/Banner Robot	16	on_confirmloaded	Website.script
+2016-08-19 09:34:42.286 -0700	Log		Media	16	on_index	Index.script
+2016-08-19 09:34:42.645 -0700	imagefound	Website/BottomNavigation	found at (540, 1038)	2	on_navigatetoenterprise	Website.script
+2016-08-19 09:34:42.735 -0700	click		at (540, 1038)	4	on_navigatetoenterprise	Website.script
+2016-08-19 09:34:42.736 -0700	Log		Bottom Navigation Arrow was clicked	5	on_navigatetoenterprise	Website.script
+2016-08-19 09:34:42.738 -0700	Log		Using OCR to find:Media	9	on_navigatetoenterprise	Website.script
+2016-08-19 09:35:09.741 -0700	imagefound	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:"", ImageRectangle:"", Language:"English", text:"Media", TextPlatform:"Generic OCR")	Unable to Find Image (TEXT:"Media")	10	on_navigatetoenterprise	Website.script
+2016-08-19 09:35:09.896 -0700	swipeup		Swiped up from (320, 795) to (320, 341)	14	on_navigatetoenterprise	Website.script
+2016-08-19 09:35:10.902 -0700	Log		Using OCR to find:Media	9	on_navigatetoenterprise	Website.script
+2016-08-19 09:35:13.072 -0700	imagefound	(CaseSensitive:"No", Contrast:"Off", IgnoreSpaces:"No", ImageLocation:(105,827), ImageRectangle:(74,818,137,836), Language:"English", text:"Media", TextPlatform:"Generic OCR")	found at (105, 827)	10	on_navigatetoenterprise	Website.script
+2016-08-19 09:35:13.163 -0700	click		at (105, 827)	11	on_navigatetoenterprise	Website.script
+2016-08-19 09:35:13.952 -0700	click		at (540, 1038)	18	on_navigatetoenterprise	Website.script
+2016-08-19 09:35:14.808 -0700	swipeup		Swiped up from (320, 795) to (320, 341)	18	on_index	Index.script
+2016-08-19 09:35:40.157 -0700	imagefound	Website/Banner Industry	Unable to Find Image Website/Banner Industry	4	on_confirmloaded	Website.script
+2016-08-19 09:35:40.213 -0700	LogError		Unable to Confirm Element: Website/Banner Industry	18	on_confirmloaded	Website.script
+2016-08-19 09:35:41.333 -0700	LogWarning		Unable to save /Users/eggbox/Desktop/DeviceLabSuites/TestPlantWebsite.suite/Results/Index/20160819_093337.127/Website/Banner Industry.png	19	on_confirmloaded	Website.script
+2016-08-19 09:35:41.513 -0700	swipedown		Swiped down from (320, 341) to (320, 795)	2	on_reset	Chrome.script
+2016-08-19 09:35:44.199 -0700	imagefound	Chrome/Tab Menu Icon	found at (505, 94)	4	on_reset	Chrome.script
+2016-08-19 09:35:44.711 -0700	click	Chrome/Tab Menu Icon	at (505, 94)	5	on_reset	Chrome.script
+2016-08-19 09:35:45.925 -0700	click	Chrome/Tab Close Icon	at (559, 232)	6	on_reset	Chrome.script
+2016-08-19 09:35:47.145 -0700	click	Chrome/Tab Open Icon	at (60, 96)	7	on_reset	Chrome.script
+2016-08-19 09:35:47.932 -0700	typetext		[homeKey]	2	on_close	Chrome.script
+2016-08-19 09:35:49.936 -0700	presshomebutton			4	on_close	Chrome.script
+2016-08-19 09:35:50.475 -0700	EndTestCase		(Duration:"133.344362", Errors:"1", Exceptions:"0", StartTime:"2016-08-19 09:33:37 -0700", Successes:"0", TestCase:"Index.script", Warnings:"1")
+2016-08-19 09:35:50.962 -0700	FAILURE	Screen_Error.png	Script Error Number of Errors logged: 1 -- Execution Time 0:02:13 Index.script
